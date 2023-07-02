@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-app",
+  "version": "1.0.0",
+  "description": "A scalable and fun single player first-person target shooter game",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": ["nextjs", "threejs", "game"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^10.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "three": "^0.124.0",
+    "react-three-fiber": "^5.3.19",
+    "react-device-detect": "^1.15.0"
+  }
+}
